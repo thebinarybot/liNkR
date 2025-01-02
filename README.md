@@ -1,4 +1,4 @@
-# Linkr - The modern URL link shortner
+# liNkR - The modern URL link shortner
 
 ![Linkr Main Screenshot](linkrmain.png)
 
@@ -81,10 +81,10 @@ To run this project locally, follow the steps below:
 
 ## Current To-Dos:
 
-- [] Dockerize App
-- [] Dark Mode
-- [] Add a button to copy the shortened URL with one click/
-- [] QR for Shortner !?
+- [ ] Dockerize App
+- [ ] Dark Mode
+- [ ] Add a button to copy the shortened URL with one click
+- [ ] QR for Shortner !?
 
 ---
 
