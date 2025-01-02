@@ -1,7 +1,7 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const { nanoid } = require("nanoid");
-const cors = require("cors"); 
+import express from "express";
+import bodyParser from "body-parser";
+import { nanoid } from "nanoid";
+import cors from "cors";
 
 const app = express();
 const port = 5000;
@@ -9,7 +9,7 @@ const port = 5000;
 const urlDatabase = {};
 
 app.use(bodyParser.json());
-app.use(cors()); 
+app.use(cors());
 
 app.post("/api/shorten", (req, res) => {
   const { url } = req.body;
